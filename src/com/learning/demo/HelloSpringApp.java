@@ -2,7 +2,7 @@ package com.learning.demo;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-class HelloSpringApp {
+public class HelloSpringApp {
     public static void main(String[] args) {
 
         //load spring config file
@@ -13,7 +13,6 @@ class HelloSpringApp {
 
         //call methods on the bean
         System.out.println(theCoach.getDailyWorkout());
-        System.out.println(theCoach.getDailyFortune());
 
         //close the context
         context.close();
