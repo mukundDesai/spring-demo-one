@@ -1,6 +1,6 @@
 package com.learning.demo;
 
-public class MyApp {
+class MyApp {
     public static void main(String[] args) {
         //create object
         Coach coach = new TrackCoach();
