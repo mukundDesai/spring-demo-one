@@ -1,5 +1,6 @@
 package com.learning.demo;
 
-public interface Coach {
-    public String getDailyWorkout();
+interface Coach {
+    String getDailyWorkout();
+    String getDailyFortune();
 }
